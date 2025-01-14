@@ -9,5 +9,6 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
-  }
+  },
+  "files.autoSave": "afterDelay"
 }
