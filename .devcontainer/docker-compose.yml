@@ -11,3 +11,6 @@ services:
     command: sleep infinity
     ports:
       - '8000:8000'
+
+volumes:
+  deno-cache:
