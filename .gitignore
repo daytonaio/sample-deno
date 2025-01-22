@@ -1,0 +1,6 @@
+.deno/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.env
+deno.lock

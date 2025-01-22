@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspace:cached
+      - deno-cache:/home/deno/.cache/deno
+    command: sleep infinity
+    ports:
+      - '8000:8000'
+
+volumes:
+  deno-cache:

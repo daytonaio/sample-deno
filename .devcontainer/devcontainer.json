@@ -1,0 +1,19 @@
+{
+  "name": "Deno",
+  "image": "denoland/deno:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "denoland.vscode-deno"
+      ],
+      "settings": {
+        "deno.enable": true,
+        "deno.lint": true
+      }
+    }
+  },
+  "forwardPorts": [8000]
+}
